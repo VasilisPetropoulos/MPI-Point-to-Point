@@ -47,5 +47,5 @@ var = ((x0 - μ)² + (x1 - μ)² + ... + (x(n-1) - μ)²) / n
 ## Μεταγλώττιση και Εκτέλεση
 
 ```bash
-mpicc AskisiI.c -o AskisiI -lm
-mpiexec -n <number_of_processes> ./AskisiI
+mpicc ptp.c -o ptp -lm
+mpiexec -n <number_of_processes> ./ptp
